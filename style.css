@@ -1,3 +1,20 @@
 body {
-    background: beige;
+    background: white;
+}
+
+header {
+   position: sticky;
+   top: 0; 
+   background: black;
+   color: white;
+    font-family: 'Karma', serif;
+   text-align: center;
+}
+
+#header-title {
+    font-size: xx-large;
+}
+
+#header-subtitle {
+    font-size: x-large
 }
