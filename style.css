@@ -8,13 +8,27 @@ header {
    background: black;
    color: white;
     font-family: 'Karma', serif;
-   text-align: center;
+   text-align: left;
+   padding-left: 17px;
 }
 
+/*
 #header-title {
     font-size: xx-large;
 }
 
 #header-subtitle {
-    font-size: x-large
+    font-size: x-large;
+}
+*/
+
+.section-title {
+    text-align: center;
+    font-family: 'Karma', serif;
+    font-size: larger;
+}
+
+#featured-videos {
+    display: block;
+    text-align: center;
 }
