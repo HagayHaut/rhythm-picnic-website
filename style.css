@@ -10,6 +10,8 @@ header {
     font-family: 'Karma', serif;
    text-align: left;
    padding-left: 17px;
+   height: 15%;
+   z-index: 2;
 }
 
 /*
@@ -22,13 +24,29 @@ header {
 }
 */
 
+#main-content {
+    background-image: linear-gradient(rgba(255,255,255,0.84), rgba(255,255,255,0.84)), url(./images/background.png);
+}
+
 .section-title {
     text-align: center;
     font-family: 'Karma', serif;
-    font-size: larger;
+    font-size: xx-large;
 }
 
-#featured-videos {
-    display: block;
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    z-index: 1;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 17%;
+    width: 66%;
+    height: 66%;
     text-align: center;
 }
