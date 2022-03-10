@@ -44,8 +44,10 @@ header {
 
 .iframe-container {
     position: relative;
-    width: 100%;
-    padding-bottom: 56.25%;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+    padding-bottom: 48%;
     height: 0;
     z-index: 1;
 }
@@ -53,8 +55,8 @@ header {
 .iframe-container iframe {
     position: absolute;
     top: 0;
-    left: 17%;
-    width: 66%;
-    height: 66%;
+    left: 7.5%;
+    width: 85%;
+    height: 85%;
     text-align: center;
 }
