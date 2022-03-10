@@ -1,5 +1,7 @@
 body {
     background: white;
+    padding: 0;
+    margin: 0;
 }
 
 header {
@@ -28,10 +30,15 @@ header {
     background-image: linear-gradient(rgba(255,255,255,0.84), rgba(255,255,255,0.84)), url(./images/background.png);
 }
 
+#content-title {
+    text-align: center;
+    font-size: xx-large;
+}
+
 .section-title {
     text-align: center;
     font-family: 'Karma', serif;
-    font-size: xx-large;
+    font-size: 3.5em;
 }
 
 .iframe-container {
