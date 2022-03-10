@@ -30,6 +30,10 @@ header {
     background-repeat: repeat-y;
 }
 
+#about-anchor {
+    scroll-margin-top: 100px;
+}
+
 #about {
     text-align: center;
     font-size: 3.6vw;
