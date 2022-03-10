@@ -28,6 +28,7 @@ header {
 
 #main-content {
     background-image: linear-gradient(rgba(255,255,255,0.84), rgba(255,255,255,0.84)), url(./images/background.png);
+    background-repeat: repeat-y;
 }
 
 #content-title {
@@ -38,7 +39,7 @@ header {
 .section-title {
     text-align: center;
     font-family: 'Karma', serif;
-    font-size: 3.5em;
+    font-size: 3.5vw;
 }
 
 .iframe-container {
