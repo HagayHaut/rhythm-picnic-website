@@ -31,7 +31,7 @@ header {
 }
 
 #about-anchor {
-    scroll-margin-top: 100px;
+    scroll-margin-top: 110px;
 }
 
 #about {
@@ -66,3 +66,41 @@ header {
     height: 85%;
     text-align: center;
 }
+
+#contact-section {
+    text-align: center;
+}
+
+#contact-container {
+    width: 20%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-item {
+    display: block;
+    direction:  row;
+}
+
+
+/*
+#contact-container {
+    position: relative;
+    width: 20%;
+    left: 40%;
+    right: 40%;
+    padding-bottom: 30%;
+    height: 0;
+    z-index: 1;
+}
+
+.contact-item {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+*/
+
