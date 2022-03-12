@@ -61,6 +61,10 @@ header {
     background-repeat: repeat-y;
 }
 
+.artist-anchor {
+   scroll-margin-top: 50px;
+}
+
 #about-anchor {
     scroll-margin-top: 130px;
 }
@@ -76,7 +80,7 @@ header {
 
 .section-title {
     text-align: center;
-    font-size: 3.5vw;
+    font-size: 2.5vw;
 }
 
 .iframe-container {
@@ -84,7 +88,7 @@ header {
     width: 80%;
     left: 10%;
     right: 10%;
-    padding-bottom: 48%;
+    padding-bottom: 44%;
     height: 0;
     z-index: 1;
 }
@@ -92,9 +96,9 @@ header {
 .iframe-container iframe {
     position: absolute;
     top: 0;
-    left: 7.5%;
-    width: 85%;
-    height: 85%;
+    left: 12.5%;
+    width: 75%;
+    height: 75%;
     text-align: center;
 }
 
@@ -113,4 +117,5 @@ header {
     display: block;
     direction:  row;
 }
+
 
