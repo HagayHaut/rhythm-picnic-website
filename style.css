@@ -5,25 +5,27 @@ body {
     font-family: 'Karma', serif;
 }
 
-header {
-   position: sticky;
-   top: 0; 
-   background: black;
-   z-index: 2;
-}
-
-/* make header elements flex */
 #header-container {
+   position: fixed;
+   top: 0; 
+   width: 100%;
+   background: black;
+   transition: all .3s ease;
+   z-index: 2;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
 
+#header-container.hide {
+    top: -94px;
+}
+
 .header-element {
     display: flex;
     flex-direction: row;
-    padding: 0 50px 0 30px;
+    padding: 0 45px 0 30px;
 }
 
 /* make artists dropdown menu */
@@ -35,21 +37,23 @@ header {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2);
     z-index: 3;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .dropdown-content a {
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
 
 .dropdown-content a:hover {
-    background-color: rgb(99, 99, 99);
+    background-color: rgb(95, 95, 95);
 }
 
 #artists-dropdown:hover .dropdown-content {
