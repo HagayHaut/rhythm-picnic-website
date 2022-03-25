@@ -1,8 +1,13 @@
+@font-face {
+    font-family: 'rhythm';
+    src: url(./fonts/rhythm-picnic-font.ttf);
+}
+
 body {
     background: white;
     padding: 0;
     margin: 0;
-    font-family: 'Karma', serif;
+    font-family: 'rhythm';
 }
 
 #header-container {
@@ -41,7 +46,7 @@ body {
     min-width: 160px;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2);
     z-index: 3;
-    height: 800%;
+    height: 815%;
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -54,7 +59,7 @@ body {
 }
 
 .dropdown-content a:hover {
-    background-color: rgb(95, 95, 95);
+    background-color: rgb(42, 42, 42);
 }
 
 #artists-dropdown:hover .dropdown-content {
