@@ -3,11 +3,16 @@
     src: url(./fonts/rhythm-picnic-font.ttf);
 }
 
+@font-face {
+    font-family: 'picnic';
+    src: url(./fonts/rhythm-picnic-font2.ttf);
+}
+
 body {
     background: white;
     padding: 0;
     margin: 0;
-    font-family: 'rhythm';
+    font-family: 'picnic';
 }
 
 #header-container {
@@ -49,11 +54,12 @@ body {
     height: 815%;
     overflow-x: hidden;
     overflow-y: auto;
+    font-family: 'rhythm';
 }
 
 .dropdown-content a {
     color: rgb(255, 255, 255);
-    padding: 12px 16px;
+    padding: 12px 7px;
     text-decoration: none;
     display: block;
 }
@@ -89,8 +95,13 @@ body {
 }
 
 .section-title {
-    text-align: center;
+    text-align: left;
     font-size: 2.5vw;
+    padding-left: 20%;
+}
+
+.section-title h3 {
+    margin-bottom: 1%;
 }
 
 .iframe-container {
